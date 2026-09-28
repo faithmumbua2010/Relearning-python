@@ -13,3 +13,16 @@ if (b > a){
 }else{
      console.log("b is not  greater than a")
 }
+
+function myFunction(){
+    return true}
+
+    if (myFunction()) {
+        console.log("YES")
+    }else{
+        console.log("NO")
+    }
+
+
+
+myFunction()
