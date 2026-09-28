@@ -1,5 +1,5 @@
-txt= "We are the so-called \"Vikings\" from the north"
-print(txt)
+# txt= "We are the so-called \"Vikings\" from the north"
+# print(txt)
 
 #  BOOLEAN
 
@@ -28,3 +28,8 @@ if b > a:
   print("b is greater than a ")
 else:
   print("b is not greater than a ")
+
+print(bool(""))
+print(bool(123))
+print(bool([]))
+print (bool(0))
