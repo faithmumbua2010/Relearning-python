@@ -16,3 +16,6 @@ if is_employee:
   print("You can register")
 else:
   print("You can not sign")
+
+print(10 > 9)
+print(10 == 9)
