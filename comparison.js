@@ -1,28 +1,34 @@
 
-if (10 == 9)  {
-    console.log("It is true")
-} else{
-    console.log("It is fasle")
-}
+// if (10 == 9)  {
+//     console.log("It is true")
+// } else{
+//     console.log("It is fasle")
+// }
 
-a = 200;
-b = 33;
+// a = 200;
+// b = 33;
 
-if (b > a){
-    console.log("b is greater than a")
-}else{
-     console.log("b is not  greater than a")
-}
+// if (b > a){
+//     console.log("b is greater than a")
+// }else{
+//      console.log("b is not  greater than a")
+// }
 
-function myFunction(){
-    return true}
+// function myFunction(){
+//     return true}
 
-    if (myFunction()) {
-        console.log("YES")
-    }else{
-        console.log("NO")
-    }
+//     if (myFunction()) {
+//         console.log("YES")
+//     }else{
+//         console.log("NO")
+//     }
 
 
 
-myFunction()
+// myFunction()
+
+// Ternary operator
+ age = 19;
+let text = (age< 18) ? "Minor" : "Adult";
+
+console.log(text);
