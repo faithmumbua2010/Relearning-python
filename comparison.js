@@ -54,3 +54,15 @@ function myFunction2(){
 
 }
 myFunction2()
+
+// Array length 
+// syntax
+//  array.length- return the length on an array
+//  array.length= number - set the lenth of an array
+const fruits = ["apple", "grapes", "mango", "peach"];
+console.log(fruits.length)
+
+//  set the length of an array
+const people = ["Alvin", "Nancy", "Bradley"];
+people.length = 2;
+console.log(people)
