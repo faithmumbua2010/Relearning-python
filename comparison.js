@@ -66,3 +66,9 @@ console.log(fruits.length)
 const people = ["Alvin", "Nancy", "Bradley"];
 people.length = 2;
 console.log(people)
+
+let i = 3;
+for(let i=0; i<5; i++){
+ console.log(i);
+}
+
