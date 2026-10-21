@@ -1,0 +1,11 @@
+#   Join two lists
+#  1) + operator
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
+# Append()
+

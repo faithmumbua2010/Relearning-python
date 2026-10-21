@@ -72,3 +72,26 @@ for(let i=0; i<5; i++){
  console.log(i);
 }
 
+// appending an array to another
+//  1) Spread operator
+
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+
+const combined = [...array1, ...array2];
+console.log(combined)
+
+//  2) concat()
+
+const array3 = [1, 2, 3];
+const array4 = [4, 5, 6];
+
+const combined2 = array1.concat(array2);
+console.log(combined2)
+
+//  push() but modifies the original
+const friends= ["Alvin", "Nancy", "Victor"];
+const people2= ["Faith", "Jean", "janet"];
+
+friends.push(...people2);
+console.log(friends);
