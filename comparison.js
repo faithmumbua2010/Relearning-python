@@ -95,3 +95,18 @@ const people2= ["Faith", "Jean", "janet"];
 
 friends.push(...people2);
 console.log(friends);
+
+// sets
+// creating a Set - use the new Set() method
+const letters = new Set(["a","b","c"]);
+console.log(letters);
+
+//  Add values to the set
+const numbers = new Set();
+numbers.add(1);
+numbers.add(2);
+numbers.add(3);
+numbers.add(1);
+numbers.add(1);
+
+console.log(numbers);
