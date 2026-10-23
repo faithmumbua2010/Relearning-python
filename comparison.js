@@ -110,3 +110,44 @@ numbers.add(1);
 numbers.add(1);
 
 console.log(numbers);
+
+//  Objects- variables that can store both values and functions
+//  values are stored as key:value pairs called properties
+// functions are stored  as key:function() pairs called methods
+const user = {
+    name: "Alex",
+    age: 28,
+    isAdmin: true,
+  
+};
+console.log(user.name);
+
+const person ={};
+//  Add properties
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
+
+console.log(person);
+
+// Object access
+//  .Dot notation   - objectName.propertyNmae  
+// []Bracket notation- objectName["propertyName"]
+
+const person2 = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  fullName: function(){
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+
+//  adding a property
+person2.country ="Kenya";
+
+console.log(person2.fullName()); // this.  refers to object
+console.log(person2);
+
