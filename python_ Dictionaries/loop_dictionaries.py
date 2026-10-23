@@ -38,3 +38,15 @@ thisdict =	{
 }
 for x in thisdict.values():
     print(x)
+
+
+# LOOP through both keys and values using the items() method
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+for x, y in thisdict.items():
+    print(x, y)
