@@ -30,3 +30,13 @@ print(x)
 
 car["color"] = "blue"
 print(x)
+
+# Get Values using the values()
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = thisdict.values()
+print(x)
