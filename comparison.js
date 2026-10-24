@@ -151,3 +151,15 @@ person2.country ="Kenya";
 console.log(person2.fullName()); // this.  refers to object
 console.log(person2);
 
+
+//  JAVASCRIPT If
+let years= 18;
+let driveText  = "You can NOT drive";
+
+if(years >= 18){
+  return "You can drive";
+}
+
+
+
+
