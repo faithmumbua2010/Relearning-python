@@ -154,11 +154,23 @@ console.log(person2);
 
 //  JAVASCRIPT If
 let years= 18;
-let driveText  = "You can NOT drive";
 
 if(years >= 18){
-  return "You can drive";
+  console.log("You can drive");
 }
+
+
+// Else comparison
+const hour = new Date().getHours();
+let greeting;
+
+if (hour < 18){
+  greeting = "Good day";
+}else{
+  greeting = "Good evening";
+}
+
+console.log(greeting)
 
 
 
