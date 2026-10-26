@@ -186,3 +186,14 @@ if (time < 10) {
 }
 
 console.log(greetings);
+
+//  ternary operator in js
+// (condition) ? expression1 : expression2
+let price = 10;
+let heIsMember = true;
+let priceCut = heIsMember ? 0.2 : 0
+let total = 10- (price * priceCut)
+
+console.log(total)
+
+
