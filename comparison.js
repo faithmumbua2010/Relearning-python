@@ -205,4 +205,69 @@ if(x < 10 && y > 1){
   console.log(false)
 };
 
+// switch statement
+// switch is often used as a more readable alternative to many if...else if...else statements, especially when dealing with multiple possible values.
+
+// syntax
+// switch(expression) {
+//   case x:
+    // code block
+  //   break;
+  // case y:
+    // code block
+  //   break;
+  // default:
+    // code block
+// }
+
+let day;
+let date = new Date().getDay();
+ 
+switch (date){
+  case 0:
+    day = "Sunday";
+    break;
+
+  case 1:
+    day = "Monday";
+    break;
+
+  case 2:
+    day = "Tuesday";
+    break;
+
+  case 3:
+    day = "Wednesday";
+    break;
+
+  case 4:
+    day = "Thursday";
+    break;
+
+  case 5:
+    day = "Friday";
+    break;
+
+  case  6:
+    day = "Saturday";
+}
+
+console.log("Today is"+ " " + day);
+
+
+switch(new Date().getDay()){
+  case 6:
+    text = "Today is Saturday";
+    break;
+
+  case 0:
+    text = "Today is Sunday";
+    break;
+
+  default:
+    text = "Looking forward to the weekend"
+}
+
+console.log(text);
+
 
