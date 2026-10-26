@@ -196,4 +196,13 @@ let total = 10- (price * priceCut)
 
 console.log(total)
 
+//  Logical operators
+let x = 6;
+let y = 3;
+if(x < 10 && y > 1){
+  console.log(true)
+}else{
+  console.log(false)
+};
+
 
