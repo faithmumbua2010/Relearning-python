@@ -20,3 +20,7 @@ for x in fruits:
   if x == "banana":
     continue
   print(x)
+
+  # The range() Function
+  for x in range(6):
+    print(x)
