@@ -24,3 +24,9 @@ for x in fruits:
   # The range() Function
   for x in range(6):
     print(x)
+
+  # Else in For Loop
+  for x in range(6):
+   print(x)
+else:
+  print("Finally finished!")
