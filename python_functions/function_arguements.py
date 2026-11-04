@@ -101,3 +101,19 @@ def my_function():
 x, y = my_function()
 print("x:", x)
 print("y:", y)
+
+
+# Positional-Only Arguments
+# To specify positional-only arguments, add , / after the arguments:
+
+def my_function(name, /):
+    print("Hello", name)
+
+my_function("Emil")
+
+# Without the , / you are actually allowed to use keyword arguments even if the function expects positional arguments:
+
+def my_function(name):
+  print("Hello", name)
+
+my_function(name = "Emil")
