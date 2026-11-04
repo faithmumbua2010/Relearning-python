@@ -82,3 +82,11 @@ def my_function(x, y):
 result = my_function(5, 3)
 print(result)
 # print(my_function(5, 3)) - will also print 8
+
+
+# Returning Different Data Types
+def my_function():
+    return["apple", "banana", "cherry"]
+
+fruits = my_function()
+print(fruits[0])
