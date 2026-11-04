@@ -21,3 +21,10 @@ my_function("Emil")
 my_function("Tobias")
 my_function() # returns Hello friend
 
+
+def my_function(country = "Norway"):
+    print("I am from", country)
+
+my_function("Sweden")
+my_function()
+
