@@ -28,3 +28,7 @@ def get_greeting():
     return "Hello from a function"
 
 print (get_greeting())
+
+# The pass Statement
+def my_function():
+  pass  # for creating a function placeholder without any code
