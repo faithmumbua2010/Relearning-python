@@ -66,10 +66,19 @@ my_fruits = ["apple", "banana", "cherry"]
 my_function(my_fruits)
 
 
-# passing dictionary
+# passing dictionary as an arguement
 def my_function(person):
     print("Name:", person["name"])
     print("Age:", person["age"])
 
 my_person = {"name": "Emil", "age": 25}
 my_function(my_person)
+
+
+# Return Values
+def my_function(x, y):
+  return x + y
+
+result = my_function(5, 3)
+print(result)
+# print(my_function(5, 3)) - will also print 8
