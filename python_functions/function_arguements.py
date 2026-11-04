@@ -64,3 +64,12 @@ def my_function(fruits):
 
 my_fruits = ["apple", "banana", "cherry"]
 my_function(my_fruits)
+
+
+# passing dictionary
+def my_function(person):
+    print("Name:", person["name"])
+    print("Age:", person["age"])
+
+my_person = {"name": "Emil", "age": 25}
+my_function(my_person)
