@@ -8,4 +8,6 @@ function retFunction(){
 }
 console.log(retFunction())
 
-//  The information passed into function is called parameter
+// A parameter is the variable listed inside the parentheses in the function definition.
+
+// arguments refer to the actual data values you pass into a function when invoking 
