@@ -30,3 +30,18 @@ def my_function(greeting, *names):
         print(greeting, name)
 
 my_function("Hello", "Emil", "Tobias", "Linus")
+
+
+
+# Practical Example with *args
+# A function that calculates the sum of any number of values:
+
+def sum_numbers(*numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+
+print(sum_numbers(1, 2, 3))
+print(sum_numbers(3, 8, 3))
+print(sum_numbers(7, 9, 9))
