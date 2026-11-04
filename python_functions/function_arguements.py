@@ -1,0 +1,1 @@
+#  the information passed into a function inside the () is called arguements
