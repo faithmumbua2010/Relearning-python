@@ -48,3 +48,11 @@ def my_function(animal, name):
 
 my_function("Buddy", "dog")
 
+
+# Mixing Positional and Keyword Arguments
+# positional arguments must come before keyword arguments:
+
+def my_function(animal, name, age):
+  print("I have a", age, "year old", animal, "named", name)
+
+my_function("dog", name = "Buddy", age = 5)
