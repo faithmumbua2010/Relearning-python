@@ -58,3 +58,12 @@ def my_function(*numbers):
     return max_num
 
 print(my_function(3, 7, 2, 9, 1))
+
+
+# Arbitrary Keyword Arguments - **kwargs
+# If you do not know how many keyword arguments will be passed into your function, add two asterisks ** before the parameter name.
+
+def my_function(**kid):
+    print("His last name is " + kid["lname"])
+
+my_function(fname= "Tobias", lname= "Refsnes"  )
