@@ -45,3 +45,16 @@ def sum_numbers(*numbers):
 print(sum_numbers(1, 2, 3))
 print(sum_numbers(3, 8, 3))
 print(sum_numbers(7, 9, 9))
+
+
+# Finding the maximum value:
+def my_function(*numbers):
+    if len(numbers) == 0:
+        return None
+    max_num = numbers[0]
+    for num in numbers:
+        if num > max_num:
+            max_num = num
+    return max_num
+
+print(my_function(3, 7, 2, 9, 1))
