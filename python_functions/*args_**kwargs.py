@@ -105,3 +105,18 @@ def my_function(title, *args, **kwargs):
     print("Keyword arguements:", kwargs)
 
 my_function("User Info", "Emil", "Tobias", age = 25, city = "Oslo")
+
+
+# Unpacking Arguments
+# The * and ** operators can also be used when calling functions to unpack (expand) a list or dictionary into separate arguments.
+
+
+# Unpacking Lists with * into arguements
+def my_function(a, b, c):
+    return a + b + c
+
+numbers = [1, 2, 3]
+result = my_function(*numbers) # # Same as: my_function(1, 2, 3)
+print(result)
+
+
