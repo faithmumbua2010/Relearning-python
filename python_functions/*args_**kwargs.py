@@ -91,3 +91,17 @@ def my_function(username, **details):
         print("", key + ":", value)
 
 my_function("emil123", age= 25, city= "Oslo", hobby = "coding")
+
+
+# Combining *args and **kwargs
+# The order must be:
+   # regular parameters
+   # *args
+  # **kwargs
+
+def my_function(title, *args, **kwargs):
+    print("Title:", title)
+    print("Positional arguements:", args)
+    print("Keyword arguements:", kwargs)
+
+my_function("User Info", "Emil", "Tobias", age = 25, city = "Oslo")
